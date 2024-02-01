@@ -28,7 +28,7 @@ export const Main = () => {
         </button>
 
 
-        {/* <AddColumnModal
+        <AddColumnModal
           isOpen={modalAddColumnIsOpen}
           onClose={() => setModalAddColumnIsOpen(false)}
           submitButton="Спасибо"
@@ -36,7 +36,7 @@ export const Main = () => {
           <h2>Поздравляем!</h2>
           <p>Вы выиграли уникальный смартфон</p>
           
-        </AddColumnModal> */}
+        </AddColumnModal>
 
         {/* <EditColumnModal
           isOpen={modalEditColumnIsOpen}
