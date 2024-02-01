@@ -38,14 +38,14 @@ export const Main = () => {
           
         </AddColumnModal>
 
-        {/* <EditColumnModal
+        <EditColumnModal
           isOpen={modalEditColumnIsOpen}
           onClose={() => setModalEditColumnIsOpen(false)}
           submitButton="Ок"
         >
           <h2>Ваше сообщение отправлено</h2>
           <p>Мы свяжемся с вами в течение двух рабочих дней</p>
-        </EditColumnModal> */}
+        </EditColumnModal> 
 
        
       </section>

@@ -1,14 +1,14 @@
-import React from "react";
-import Modal from "react-modal";
-import { ReactComponent as CloseIcon } from "../close-icon.svg";
-import "../EditColumnModal.styled";
+import React from 'react';
+import Modal from 'react-modal';
+import { ReactComponent as CloseIcon } from '../close-icon.svg';
+import '../ColumnModal.styled';
 
 export const AddColumnModal = ({ isOpen, onClose, submitButton, children }) => {
   return (
     <Modal
       isOpen={isOpen}
-      overlayClassName={"modal-overlay"}
-      className={"modal-content"}
+      overlayClassName={'modal-overlay'}
+      className={'modal-content'}
       closeTimeoutMS={300}
       onRequestClose={() => onClose()}
       ariaHideApp={false}
