@@ -1,7 +1,9 @@
 import React from 'react';
 import Modal from 'react-modal';
 import { ReactComponent as CloseIcon } from '../close-icon.svg';
-import '../ColumnModal.styled';
+import '../ColumnModal.css';
+
+Modal.setAppElement('#root');
 
 export const AddColumnModal = ({ isOpen, onClose, submitButton, children }) => {
   return (

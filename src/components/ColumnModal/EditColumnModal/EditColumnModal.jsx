@@ -1,7 +1,8 @@
 import React from 'react';
 import Modal from 'react-modal';
 import { ReactComponent as CloseIcon } from '../close-icon.svg';
-import '../ColumnModal.styled';
+// 
+import '../ColumnModal.css';
 
 export const EditColumnModal = ({
   isOpen,
